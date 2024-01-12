@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/DrRobotnik7/readme-generator#readme",
   "dependencies": {
-    "inquirer": "^9.2.12"
+    "inquirer": "^8.0.0"
   }
 }
