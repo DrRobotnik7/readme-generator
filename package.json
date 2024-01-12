@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DrRobotnik7/readme-generator/issues"
   },
-  "homepage": "https://github.com/DrRobotnik7/readme-generator#readme"
+  "homepage": "https://github.com/DrRobotnik7/readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^9.2.12"
+  }
 }
