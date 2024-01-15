@@ -26,6 +26,8 @@ There are two questions that require you to use the arrows on your keyboard to s
 
 Once completed the README will be generated and saved in the same folder as the index.js file.
 
+Refer to this video walkthrough demonstrating how to use the application https://drive.google.com/file/d/1f-GpZMXm9IRqGjjC38fyAPos-KioeGgV/view
+
 ![Jack Johnson README generator Screenshot](./assets/images/readme-generator-screenshot.png)
 
 ## Credits
