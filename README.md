@@ -31,6 +31,10 @@ The search history persists after the page is refreshed.
 
 I would like to acknowledge my peers in Sibert-pod-11. We're all on the same learning journey and have helped each other massively during the front-end web development skills boot camp.
 
+I would like to acknowledge the README guide found at the following repo, which I used for the text in the contribution section: https://github.com/othneildrew/Best-README-Template
+
+Finally, thanks to the author of the following website which I point users to for more information on licenses https://choosealicense.com/ 
+
 ## License
 
 No license chosen
