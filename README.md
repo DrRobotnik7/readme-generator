@@ -13,27 +13,28 @@ A command-line application that dynamically generates a professional README.md f
 
 ## Installation
 
-Click on the URL and you will be navigated to the web application in your default browser.
+- Install node.js on your system.
+- Save the README-generator code to your hard drive.
+- Navigate to the folder containing index.js, either with the command prompt or with VS Code's integrated terminal. 
+- Type "node index.js" to run the application
 
 ## Usage
 
-URL: https://drrobotnik7.github.io/readme-generator/
+The README generator will ask the first question - What is the title of your project? Type this in and proceed through the remainder of the questions.
 
-Users can type a city into the search box to be shown the current weather and a 5 day forecast. If the user would like to specify a country they can e.g. if searching for Bristol, the result is the city in the US. You can type in Bristol, UK instead.
+There are two questions that require you to use the arrows on your keyboard to select your choice.
 
-The results are saved in the search history on the left side of the page. You can clear the search history using the 'Clear History' button.
+Once completed the README will be generated and saved in the same folder as the index.js file.
 
-The search history persists after the page is refreshed.
-
-![Jack Johnson Work Day Scheduler Screenshot](/assets/images/weather-dashboard-screenshot.png)
+![Jack Johnson README generator Screenshot](./assets/images/readme-generator-screenshot.png)
 
 ## Credits
 
 I would like to acknowledge my peers in Sibert-pod-11. We're all on the same learning journey and have helped each other massively during the front-end web development skills boot camp.
 
-I would like to acknowledge the README guide found at the following repo, which I used for the text in the contribution section: https://github.com/othneildrew/Best-README-Template
+I would like to acknowledge the README guide found at the following repository, which I used for the text in the contribution section: https://github.com/othneildrew/Best-README-Template
 
-Finally, thanks to the author of the following website which I point users to for more information on licenses https://choosealicense.com/ 
+Finally, thanks to the author of the following website which I direct users to for more information on choosing a license https://choosealicense.com/ 
 
 ## License
 
