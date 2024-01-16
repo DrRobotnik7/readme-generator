@@ -1,6 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+// This function uses a switch statement to fetch the badge of the chosen license
 fetchLicenseBadge = (response) => {
 switch(response) {
     case "MIT":
@@ -19,6 +20,7 @@ switch(response) {
         licenseBadge = ""
 }}
 
+// This function alters the text shown in the license section depending on which license is chosen, if any
 setLicenseInfo = (response) => {
     if (response === "Unlicensed") {
         licenseInfo = "Unlicensed"
@@ -27,6 +29,7 @@ setLicenseInfo = (response) => {
     }
 }
 
+// This function alters the text shown in the contributing section depending on whether the user opts in or out
 setContributionInfo = (response) => {
     if (response === "Yes") {
         contributionInfo = 
@@ -42,6 +45,7 @@ If you have a suggestion that would make this better, please fork the repo and c
     }
 }
 
+// This is the main logic which contains the questions and generates the readme
 inquirer
 .prompt([
     {
@@ -116,10 +120,10 @@ inquirer
     },
 ])
 .then((response) => {
-fetchLicenseBadge(response.license)
-setLicenseInfo(response.license)
-setContributionInfo(response.contribution)
-fs.writeFile(`${response.title}-README.md`,
+fetchLicenseBadge(response.license) // Calls the fetch licence badge function, passing response.license as an argument
+setLicenseInfo(response.license) // Calls the set licence info function, passing response.license as an argument
+setContributionInfo(response.contribution) // Calls the function, passing response.contribution as an argument
+fs.writeFile(`${response.title}-README.md`, // Generates a readme using a template literal with embedded expressions
 `
 # ${response.title} README ${licenseBadge}
 
